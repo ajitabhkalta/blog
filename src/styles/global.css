@@ -12,12 +12,16 @@ html[data-theme="light"] {
   --border: #ece9e9;
 }
 
+ /
 html[data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --muted: #343f60bf;
-  --border: #ab4b08;
+  --background: #1a1d23; /* Dark gray background */
+  --foreground: #eeeeee; /* Bright white text */
+  --neutral: #4c5154; /* Dark gray neutral */
+  --accent: #9C27B0; /* Deep purple accent */
+  --muted: #7A288A; /* Softer purple */
+  --border: #2c2f33; /* Dark gray border */
+  --success: #8e24aa; /* Rich purple-green success */
+  --failure: #FF69B4; /* Bright pink-red failure */
 }
 
 @theme inline {
