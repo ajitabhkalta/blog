@@ -12,7 +12,7 @@ html[data-theme="light"] {
   --border: #ece9e9;
 }
 
- /
+ 
 html[data-theme="dark"] {
   --background: #1a1d23; /* Dark gray background */
   --foreground: #eeeeee; /* Bright white text */
