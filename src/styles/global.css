@@ -25,6 +25,16 @@ html[data-theme="dark"] {
   --failure: #ff5252; /* Bright red for error messages */
 }
 
+html[data-theme="ligth"] {
+  --background: #ebebeb; /* Light gray */
+  --foreground: #333333; /* Dark gray */
+  --accent: #3E8E41; /* Deep green (matching Ahrefs' brand) */
+  --muted: #8BC34A; /* Softer green */
+  --border: #d3d3d3; /* Medium gray border */
+  --success: #2ecc71; /* Greenish-blue success */
+  --failure: #FF3737; /* Deep red failure */
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
