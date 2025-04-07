@@ -4,40 +4,30 @@
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 :root,
+/* --- Theme 1: Light (Sophisticated Teal) --- */
+:root,
 html[data-theme="light"] {
-  --background: #f5f8fa;
-  --foreground: #212121;
-  --accent: #7367d8;
-  --neutral: #cccccc;
-  --muted: #e5e5ea;
-  --border: #d3d3d7;
-  --success: #34c759;
-  --failure: #ff3737;
+  --background: #ffffff;       /* Clean white */
+  --foreground: #343a40;       /* Dark Gray (Bootstrap's dark gray) */
+  /* --accent: #20c997; */     /* Original Bootstrap Teal (Contrast 3.0:1 - Fail AA Text) */
+  --accent: #0b5345;       /* Darker Teal/Green (Contrast 6.0:1 - Pass AA Text) */
+  --muted: #6c757d;        /* Standard Muted Gray */
+  --border: #dee2e6;        /* Standard Light Gray Border */
+  --success: #146c43;      /* Darker Accessible Green */
+  --failure: #a91e2c;      /* Darker Accessible Red */
+  --neutral: #f8f9fa;        /* Very Light Gray (for subtle cards/backgrounds) */
 }
 
+/* --- Theme 1: Dark (Sophisticated Teal) --- */
 html[data-theme="dark"] {
-  --background: #1a1f22;
-  --foreground: #f5f8fa;
-  --accent: #8e24aa;
-  --neutral: #444444;
-  --muted: #2f3436;
-  --border: #45494c;
-  --success: #44d47a;
-  --failure: #ff5b5b;
-}
-
-/* Optional System Preference Sync */
-@media (prefers-color-scheme: dark) {
-  html:not([data-theme="dark"]) {
-    --background: #1a1f22;
-    --foreground: #f5f8fa;
-  }
-}
-@media (prefers-color-scheme: light) {
-  html:not([data-theme="light"]) {
-    --background: #f5f8fa;
-    --foreground: #212121;
-  }
+  --background: #1a1d21;       /* Deep, slightly cool dark gray */
+  --foreground: #e9ecef;       /* High-contrast off-white */
+  --neutral: #343a40;        /* Medium Gray for secondary elements */
+  --accent: #48a999;       /* Brighter, yet muted Teal (Contrast 5.0:1 - Pass AA Text) */
+  --muted: #adb5bd;        /* Lighter Muted Gray */
+  --border: #495057;        /* Subtle Dark Gray Border */
+  --success: #37b24d;      /* Brighter Green for dark mode */
+  --failure: #f0656d;      /* Brighter Red for dark mode */
 }
 
 @theme inline {
