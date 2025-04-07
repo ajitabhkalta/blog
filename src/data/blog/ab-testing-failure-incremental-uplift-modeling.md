@@ -28,8 +28,8 @@ The root cause? **Traditional A/B testing** relies on **naive comparisons** inst
 ### The 3 Fatal Flaws in Classic A/B Testing
 
 1. **Ignores Incrementality**:
-   * **Problem**: Tests "A vs. B" in isolation, not "A vs. B *incremental* impact".
-   * **Result**: You optimize for **absolute** (not **additional**) performance, overestimating success.
+   - **Problem**: Tests "A vs. B" in isolation, not "A vs. B _incremental_ impact".
+   - **Result**: You optimize for **absolute** (not **additional**) performance, overestimating success.
 2. **Overlooks Heterogeneous User Behavior**:
    _ **Problem**: Treats all users as equal, ignoring segments (e.g., loyal vs. new customers).
    _ **Result**: "Winning" variants flop when scaled because they benefited from **biased subsets**.
