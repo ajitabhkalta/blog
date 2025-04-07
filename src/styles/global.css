@@ -4,30 +4,25 @@
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 :root,
-/* --- Theme 1: Light (Sophisticated Teal) --- */
-:root,
 html[data-theme="light"] {
-  --background: #ffffff;       /* Clean white */
-  --foreground: #343a40;       /* Dark Gray (Bootstrap's dark gray) */
-  /* --accent: #20c997; */     /* Original Bootstrap Teal (Contrast 3.0:1 - Fail AA Text) */
-  --accent: #0b5345;       /* Darker Teal/Green (Contrast 6.0:1 - Pass AA Text) */
-  --muted: #6c757d;        /* Standard Muted Gray */
-  --border: #dee2e6;        /* Standard Light Gray Border */
-  --success: #146c43;      /* Darker Accessible Green */
-  --failure: #a91e2c;      /* Darker Accessible Red */
-  --neutral: #f8f9fa;        /* Very Light Gray (for subtle cards/backgrounds) */
+  --background: #ffffff; /* Pure white for a clean, professional look */
+  --foreground: #2b2b2b; /* Dark gray for high readability */
+  --accent: #0073e6; /* Bright blue for links and buttons (trustworthy and professional) */
+  --muted: #f4f4f4; /* Very light gray for muted elements */
+  --border: #e0e0e0; /* Subtle gray for borders */
+  --success: #28a745; /* Green for success messages (positive feedback) */
+  --failure: #dc3545; /* Red for error messages (attention-grabbing) */
 }
 
-/* --- Theme 1: Dark (Sophisticated Teal) --- */
 html[data-theme="dark"] {
-  --background: #1a1d21;       /* Deep, slightly cool dark gray */
-  --foreground: #e9ecef;       /* High-contrast off-white */
-  --neutral: #343a40;        /* Medium Gray for secondary elements */
-  --accent: #48a999;       /* Brighter, yet muted Teal (Contrast 5.0:1 - Pass AA Text) */
-  --muted: #adb5bd;        /* Lighter Muted Gray */
-  --border: #495057;        /* Subtle Dark Gray Border */
-  --success: #37b24d;      /* Brighter Green for dark mode */
-  --failure: #f0656d;      /* Brighter Red for dark mode */
+  --background: #121212; /* Deep dark gray for a sleek, modern look */
+  --foreground: #eaeaea; /* Light gray for text to ensure readability */
+  --neutral: #3a3a3a; /* Medium gray for secondary elements */
+  --accent: #1e90ff; /* Vibrant blue for links and buttons (stands out on dark backgrounds) */
+  --muted: #2a2a2a; /* Dark muted gray for less important elements */
+  --border: #3c3c3c; /* Subtle dark gray for borders */
+  --success: #4caf50; /* Bright green for success messages */
+  --failure: #ff5252; /* Bright red for error messages */
 }
 
 @theme inline {
