@@ -4,27 +4,29 @@
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 :root,
-
-
-html[data-theme="dark"] {
-  --background: #121212; /* Deep dark gray for a sleek, modern look */
-  --foreground: #eaeaea; /* Light gray for text to ensure readability */
-  --neutral: #3a3a3a; /* Medium gray for secondary elements */
-  --accent: #1e90ff; /* Vibrant blue for links and buttons (stands out on dark backgrounds) */
-  --muted: #2a2a2a; /* Dark muted gray for less important elements */
-  --border: #3c3c3c; /* Subtle dark gray for borders */
-  --success: #4caf50; /* Bright green for success messages */
-  --failure: #ff5252; /* Bright red for error messages */
+/* --- Light Theme (Professional Blue) --- */
+:root,
+html[data-theme="light"] {
+  --background: #ffffff; /* Standard clean white */
+  --foreground: #333333; /* High-contrast dark gray (very common) */
+  /* --accent: #0073e6; */ /* Original blue, okay contrast */
+  --accent: #0056b3; /* Darker Blue: Better WCAG AA contrast (4.59:1 on white) for text */
+  --muted: #6c757d;    /* Standard muted gray (good contrast with #333) */
+  --border: #e0e0e0;    /* Subtle light gray (common) */
+  --success: #198754;  /* Standard accessible Bootstrap 5 green */
+  --failure: #dc3545;  /* Standard accessible Bootstrap 5 red */
 }
 
-html[data-theme="light"] {
-  --background: #ebebeb; /* Light gray */
-  --foreground: #333333; /* Dark gray */
-  --accent: #3E8E41; /* Deep green (matching Ahrefs' brand) */
-  --muted: #8BC34A; /* Softer green */
-  --border: #d3d3d3; /* Medium gray border */
-  --success: #2ecc71; /* Greenish-blue success */
-  --failure: #FF3737; /* Deep red failure */
+/* --- Dark Theme (Complementary Blue) --- */
+html[data-theme="dark"] {
+  --background: #181a1b; /* Slightly less deep black, common in dark themes */
+  --foreground: #e8e6e3; /* High-contrast off-white */
+  --neutral: #3a3a3a;    /* Medium gray for secondary elements */
+  --accent: #4dabf7;    /* Lighter, vibrant blue - good contrast (5.6:1 on dark bg) */
+  --muted: #868e96;    /* Lighter muted gray for dark mode */
+  --border: #373a3c;    /* Subtle dark gray border */
+  --success: #40c057;  /* Brighter green for dark mode */
+  --failure: #f0656d;  /* Brighter red for dark mode */
 }
 
 @theme inline {
