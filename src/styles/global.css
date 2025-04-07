@@ -4,29 +4,40 @@
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 :root,
-/* --- Light Theme (Professional Blue) --- */
-:root,
 html[data-theme="light"] {
-  --background: #ffffff; /* Standard clean white */
-  --foreground: #333333; /* High-contrast dark gray (very common) */
-  /* --accent: #0073e6; */ /* Original blue, okay contrast */
-  --accent: #0056b3; /* Darker Blue: Better WCAG AA contrast (4.59:1 on white) for text */
-  --muted: #6c757d;    /* Standard muted gray (good contrast with #333) */
-  --border: #e0e0e0;    /* Subtle light gray (common) */
-  --success: #198754;  /* Standard accessible Bootstrap 5 green */
-  --failure: #dc3545;  /* Standard accessible Bootstrap 5 red */
+  --background: #f5f8fa;
+  --foreground: #212121;
+  --accent: #7367d8;
+  --neutral: #cccccc;
+  --muted: #e5e5ea;
+  --border: #d3d3d7;
+  --success: #34c759;
+  --failure: #ff3737;
 }
 
-/* --- Dark Theme (Complementary Blue) --- */
 html[data-theme="dark"] {
-  --background: #181a1b; /* Slightly less deep black, common in dark themes */
-  --foreground: #e8e6e3; /* High-contrast off-white */
-  --neutral: #3a3a3a;    /* Medium gray for secondary elements */
-  --accent: #4dabf7;    /* Lighter, vibrant blue - good contrast (5.6:1 on dark bg) */
-  --muted: #868e96;    /* Lighter muted gray for dark mode */
-  --border: #373a3c;    /* Subtle dark gray border */
-  --success: #40c057;  /* Brighter green for dark mode */
-  --failure: #f0656d;  /* Brighter red for dark mode */
+  --background: #1a1f22;
+  --foreground: #f5f8fa;
+  --accent: #8e24aa;
+  --neutral: #444444;
+  --muted: #2f3436;
+  --border: #45494c;
+  --success: #44d47a;
+  --failure: #ff5b5b;
+}
+
+/* Optional System Preference Sync */
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="dark"]) {
+    --background: #1a1f22;
+    --foreground: #f5f8fa;
+  }
+}
+@media (prefers-color-scheme: light) {
+  html:not([data-theme="light"]) {
+    --background: #f5f8fa;
+    --foreground: #212121;
+  }
 }
 
 @theme inline {
