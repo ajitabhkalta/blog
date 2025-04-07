@@ -25,8 +25,7 @@ export const SOCIALS = [
     href: "https://x.com/ajitabhkalta",
     linkTitle: `${SITE.title} on X`,
     icon: IconBrandX,
-  }
-
+  },
 ] as const;
 
 export const SHARE_LINKS = [
