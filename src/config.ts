@@ -4,7 +4,7 @@ export const SITE = {
   profile: "https://ajitabhkalta.com/",
   desc: "Ajitabh Kalta helps leverage data analytics to optimize their digital marketing efforts. Learn about social media, advertising, email marketing, branding, and more – all powered by data.",
   title: "Data-Driven Marketing | Ajitabh Kalta",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "ajitabhkalta-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
