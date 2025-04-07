@@ -3,34 +3,23 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+## About Ajitabh Kalta – Your Data-Driven Marketing Partner
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+Hi, I'm Ajitabh Kalta, and I believe that every marketing decision should be informed by data.  I like to help businesses of all sizes unlock the power of their marketing data to drive growth and achieve measurable results.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+I've worked across a wide range of digital marketing disciplines – from social media and digital advertising to email marketing and branding – and I've consistently found that the most successful campaigns are those that are built on a solid foundation of data analysis.
 
-<div>
-  <img src="/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+**What you'll find here:**
 
-## Tech Stack
+* **Data-Driven Insights:** I break down complex marketing data into actionable insights you can use to improve your campaigns.
+* **Social Media Analytics:** Learn how to track your social media performance, understand your audience, and optimize your content for maximum engagement.
+* **Digital Advertising Optimization:** Discover how to use data to improve your ad targeting, bidding strategies, and overall ROI.
+* **Email Marketing Segmentation & Personalization:**  Learn how to segment your email list and personalize your messages to increase open rates and conversions.
+* **Branding & Identity Measurement:**  Understand how to measure the effectiveness of your branding efforts and track your brand's reputation online.
+* **Practical Case Studies:**  I share real-world examples of how data analysis has helped businesses achieve their marketing goals.
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+I'm passionate about helping marketers make smarter decisions and achieve better results.  I regularly update this blog with the latest data-driven marketing trends and best practices.
 
-## Features
+**Connect with me:**
 
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+I'm always happy to connect and discuss your marketing data challenges. Let's work together to turn your data into a competitive advantage! Please feel free to drop a mail at ajitabhkalta@gmail.com
