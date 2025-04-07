@@ -3,7 +3,7 @@ author: Ajitabh Kalta
 pubDatetime: 2025-04-09T08:00:00Z
 modDatetime: 2025-04-09T10:15:00Z
 title: "Mastering Google Analytics 4: A Guide for Digital Advertisers"
-slug: "google-analytics-4-for-digital-advertisers"
+slug: google-analytics-4-for-digital-advertisers
 featured: true
 draft: false
 tags:
