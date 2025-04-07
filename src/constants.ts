@@ -10,20 +10,8 @@ import { SITE } from "@/config";
 
 export const SOCIALS = [
   {
-    name: "Github",
-    href: "https://github.com/ajitabhkalta/blog",
-    linkTitle: ` ${SITE.title} on Github`,
-    icon: IconGitHub,
-  },
-  {
-    name: "X",
-    href: "https://x.com/ajitabhkalta",
-    linkTitle: `${SITE.title} on X`,
-    icon: IconBrandX,
-  },
-  {
     name: "LinkedIn",
-    href: "linkedin.com/in/ajitabh-kalta-0328411bb",
+    href: "https://linkedin.com/in/ajitabh-kalta-0328411bb",
     linkTitle: `${SITE.title} on LinkedIn`,
     icon: IconLinkedin,
   },
@@ -33,6 +21,12 @@ export const SOCIALS = [
     linkTitle: `Send an email to ${SITE.title}`,
     icon: IconMail,
   },
+  {
+    name: "X",
+    href: "https://x.com/ajitabhkalta",
+    linkTitle: `${SITE.title} on X`,
+    icon: IconBrandX,
+  }
 ] as const;
 
 export const SHARE_LINKS = [
