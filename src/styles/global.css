@@ -4,15 +4,7 @@
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 :root,
-html[data-theme="light"] {
-  --background: #ffffff; /* Pure white for a clean, professional look */
-  --foreground: #2b2b2b; /* Dark gray for high readability */
-  --accent: #0073e6; /* Bright blue for links and buttons (trustworthy and professional) */
-  --muted: #f4f4f4; /* Very light gray for muted elements */
-  --border: #e0e0e0; /* Subtle gray for borders */
-  --success: #28a745; /* Green for success messages (positive feedback) */
-  --failure: #dc3545; /* Red for error messages (attention-grabbing) */
-}
+
 
 html[data-theme="dark"] {
   --background: #121212; /* Deep dark gray for a sleek, modern look */
@@ -25,7 +17,7 @@ html[data-theme="dark"] {
   --failure: #ff5252; /* Bright red for error messages */
 }
 
-html[data-theme="ligth"] {
+html[data-theme="light"] {
   --background: #ebebeb; /* Light gray */
   --foreground: #333333; /* Dark gray */
   --accent: #3E8E41; /* Deep green (matching Ahrefs' brand) */
