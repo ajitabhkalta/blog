@@ -1,7 +1,7 @@
 ---
 author: Ajitabh Kalta
-pubDatetime: 2023-03-01T08:00:00Z
-modDatetime: 2023-03-20T03:15:57.792Z
+pubDatetime: 2025-03-01T08:00:00Z
+modDatetime: 2025-03-20T03:15:57.792Z
 title: Unlocking Ad Performance - How to Apply Pareto Analysis to Your Digital Advertising Data
 slug: pareto-analysis-digital-advertising
 featured: true

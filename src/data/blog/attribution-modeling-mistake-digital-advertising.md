@@ -1,7 +1,7 @@
 ---
 author: Ajitabh Kalta
-pubDatetime: 2023-02-15T10:30:00Z
-modDatetime: 2023-03-18T02:45:57.792Z
+pubDatetime: 2025-02-15T10:30:00Z
+modDatetime: 2025-03-18T02:45:57.792Z
 title: The Attribution Modeling Mistake Costing You Ad Dollars (And How to Fix It)
 slug: attribution-modeling-mistake-digital-advertising
 featured: false

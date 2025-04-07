@@ -1,7 +1,7 @@
 ---
 author: Ajitabh Kalta
-pubDatetime: 2025-04-10T09:45:00Z
-modDatetime: 2025-04-10T11:30:00Z
+pubDatetime: 2025-04-01T09:45:00Z
+modDatetime: 2025-04-01T11:30:00Z
 title: "Leveraging Customer Data Platforms (CDPs) for Smarter Digital Advertising"
 slug: leveraging-customer-data-platforms
 featured: true

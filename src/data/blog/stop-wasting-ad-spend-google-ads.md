@@ -1,7 +1,7 @@
 ---
 author: Ajitabh Kalta
-pubDatetime: 2022-09-26T12:13:24Z
-modDatetime: 2024-01-04T09:09:06Z
+pubDatetime: 2025-01-26T12:13:24Z
+modDatetime: 2025-01-28T09:09:06Z
 title: "Stop Wasting Ad Spend: Data-Driven Google Ads Optimization Strategies"
 slug: "stop-wasting-ad-spend-google-ads" 
 featured: false
