@@ -1,0 +1,73 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+  buttonText?: string;
+  buttonLink?: string;
+  backgroundColor?: string;
+  textColor?: string;
+}
+
+const {
+  title = "Connect with me on LinkedIn!",
+  description = "Stay updated with my latest posts and professional updates by following me on LinkedIn.",
+  buttonText = "Visit My LinkedIn",
+  buttonLink = "https://www.linkedin.com/in/ajitabh-kalta-0328411bb", // Replace with your LinkedIn profile URL
+  backgroundColor = "#0077b5", // LinkedIn blue
+  textColor = "#ffffff", // White text
+} = Astro.props;
+---
+
+<div
+  class="cta-container"
+  style={{
+    backgroundColor: backgroundColor,
+    color: textColor,
+    padding: "2rem",
+    borderRadius: "8px",
+    textAlign: "center",
+    margin: "2rem 0",
+  }}
+>
+  <h2
+    class="cta-title"
+    style={{ fontSize: "1.5rem", fontWeight: "bold", marginBottom: "0.5rem" }}
+  >
+    {title}
+  </h2>
+  <p
+    class="cta-description"
+    style={{ fontSize: "1rem", marginBottom: "1.5rem" }}
+  >
+    {description}
+  </p>
+  <a
+    href={buttonLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="cta-button"
+    style={{
+      backgroundColor: "#ffffff",
+      color: backgroundColor,
+      padding: "0.75rem 1.5rem",
+      borderRadius: "4px",
+      textDecoration: "none",
+      fontWeight: "bold",
+      transition: "background-color 0.3s ease",
+    }}
+  >
+    {buttonText}
+  </a>
+</div>
+
+<style>
+  .cta-container {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .cta-button {
+    display: inline-block;
+  }
+  .cta-button:hover {
+    background-color: #e6e6e6;
+  }
+</style>
