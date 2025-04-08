@@ -50,7 +50,6 @@ Let's fix this.
 - Add high-quality photos (rooms, amenities, local attractions).
 - Respond to reviews (90% of travelers check reviews before booking).
 
-
 #### **2. SEO for Hotels & Travel Agencies**
 
 - **Keyword research**: Target phrases like "best hotels in Bhubaneswar near Nandankanan".
@@ -62,7 +61,6 @@ Let's fix this.
 - **Visual storytelling**: Share stunning photos/videos of Odisha's attractions.
 - **Engage with followers**: Respond to comments, run contests.
 - **Paid ads**: Targeted Facebook/Instagram ads to reach travelers planning trips to Odisha.
-
 
 #### **4. Email Marketing & Direct Bookings**
 
