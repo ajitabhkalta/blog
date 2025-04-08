@@ -15,7 +15,6 @@ tags:
 description: "Learn how Bhubaneswar's hotels, travel agencies, and tour operators can boost online visibility, drive direct bookings, and outrank OTAs like Booking.com. Practical tips & local success stories."
 ---
 
-import CallToAction from '../components/CallToAction.astro';
 
 ## **From Bookings to Bookmarks: How Bhubaneswar Hotels & Travel Agencies Can Dominate Online Tourism Marketing**
 
@@ -94,7 +93,6 @@ Let's fix this.
 2. **Invest in professional photos**: No more low-res images.
 3. **Hire a local digital marketing agency** (experts in Odisha tourism SEO).
 
-<CallToAction />
 
 By 2025, Bhubaneswar's tourism sector will be even bigger. **The question is: will your business be ready?**
 
@@ -102,7 +100,4 @@ Happy marketing! 🌟
 
 ---
 
-**Key stats referenced:**
 
-- [Odisha Tourism Board](https://tourism.odisha.gov.in)
-- [Google Travel Study](https://www.google.com/travel)
