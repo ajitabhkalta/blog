@@ -50,9 +50,6 @@ Let's fix this.
 - Add high-quality photos (rooms, amenities, local attractions).
 - Respond to reviews (90% of travelers check reviews before booking).
 
-<div>
-  <strong>Example:</strong> **Hotel Sailashree Palace** (Bhubaneswar) optimized their GMB and saw a **40% increase in direct booking inquiries**.
-</div>
 
 #### **2. SEO for Hotels & Travel Agencies**
 
@@ -66,9 +63,6 @@ Let's fix this.
 - **Engage with followers**: Respond to comments, run contests.
 - **Paid ads**: Targeted Facebook/Instagram ads to reach travelers planning trips to Odisha.
 
-<div>
-  Tip: Use Instagram Reels for short, engaging hotel tours.
-</div>
 
 #### **4. Email Marketing & Direct Bookings**
 
