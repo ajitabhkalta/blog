@@ -1,7 +1,7 @@
 ---
 author: Ajitabh Kalta
-pubDatetime: 2025-04-11T09:00:00Z
-modDatetime: 2025-04-11T09:00:00Z
+pubDatetime: 2025-04-10T09:00:00Z
+modDatetime: 2025-04-10T09:00:00Z
 title: Data Driven Marketing - The Future of Financial Services Engagement
 slug: data-driven-marketing-finance-future
 featured: true
