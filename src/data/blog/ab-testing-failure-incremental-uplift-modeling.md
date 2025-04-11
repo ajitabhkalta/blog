@@ -1,7 +1,7 @@
 ---
 author: Ajitabh Kalta
-pubDatetime: 2025-04-10T09:00:00Z
-modDatetime: 2025-04-25T01:20:57.792Z
+pubDatetime: 2025-03-10T09:00:00Z
+modDatetime: 2025-03-25T01:20:57.792Z
 title: Why Your A/B Testing Strategy Is Failing (And How to Fix It with Incremental Uplift Modeling)
 slug: ab-testing-failure-incremental-uplift-modeling
 featured: true
