@@ -2,7 +2,7 @@
 author: Ajitabh Kalta
 pubDatetime: 2025-04-11T11:00:00Z
 modDatetime: 2025-04-11T11:00:00Z
-title: Canva Create 2025: How Magic Studio and AI Are Redefining Design for Marketers
+title: Canva Create 2025 How Magic Studio and AI Are Redefining Design for Marketers
 slug: canva-create-2025-ai-features
 featured: true
 draft: false
